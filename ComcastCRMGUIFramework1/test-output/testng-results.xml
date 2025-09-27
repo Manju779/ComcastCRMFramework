@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-25T14:09:07 IST" name="Suite" finished-at="2025-09-25T14:11:12 IST" duration-ms="124443">
+    <groups>
+      <group name="regressionTest">
+        <method signature="CreateContactsTest.createContactWithOrgTest()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" name="createContactWithOrgTest" class="com.comcast.crm.testng.contacttest.CreateContactsTest"/>
+        <method signature="CreateContactsTest.createContactWithSupportDataTest()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" name="createContactWithSupportDataTest" class="com.comcast.crm.testng.contacttest.CreateContactsTest"/>
+        <method signature="CreateOrganizationTest.createOrganizationWithPhoneNumberTest()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" name="createOrganizationWithPhoneNumberTest" class="com.comcast.crm.testng.orgtest.CreateOrganizationTest"/>
+        <method signature="CreateOrganizationTest.createOrganizationWithTypeTest()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" name="createOrganizationWithTypeTest" class="com.comcast.crm.testng.orgtest.CreateOrganizationTest"/>
+      </group> <!-- regressionTest -->
+      <group name="smakeTest">
+        <method signature="CreateContactsTest.createContactTest()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" name="createContactTest" class="com.comcast.crm.testng.contacttest.CreateContactsTest"/>
+        <method signature="CreateOrganizationTest.createOrganizationTest()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" name="createOrganizationTest" class="com.comcast.crm.testng.orgtest.CreateOrganizationTest"/>
+      </group> <!-- smakeTest -->
+    </groups>
+    <test started-at="2025-09-25T14:09:07 IST" name="Test" finished-at="2025-09-25T14:11:12 IST" duration-ms="124443">
+      <class name="com.comcast.crm.testng.contacttest.CreateContactsTest">
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:10:36 IST" name="configBC" finished-at="2025-09-25T14:10:41 IST" duration-ms="4287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:10:41 IST" name="configBM" finished-at="2025-09-25T14:10:48 IST" duration-ms="7627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactTest()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:10:48 IST" name="createContactTest" finished-at="2025-09-25T14:10:53 IST" duration-ms="5002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:10:53 IST" name="configAM" finished-at="2025-09-25T14:10:54 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:10:54 IST" name="configBM" finished-at="2025-09-25T14:10:54 IST" duration-ms="404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithOrgTest()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:10:54 IST" name="createContactWithOrgTest" finished-at="2025-09-25T14:11:04 IST" duration-ms="10147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrgTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:11:04 IST" name="configAM" finished-at="2025-09-25T14:11:05 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:11:05 IST" name="configBM" finished-at="2025-09-25T14:11:05 IST" duration-ms="391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createContactWithSupportDataTest()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:11:05 IST" name="createContactWithSupportDataTest" finished-at="2025-09-25T14:11:11 IST" duration-ms="5294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithSupportDataTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:11:11 IST" name="configAM" finished-at="2025-09-25T14:11:11 IST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.testng.contacttest.CreateContactsTest@55b0dcab]" started-at="2025-09-25T14:11:11 IST" name="configAC" finished-at="2025-09-25T14:11:12 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.comcast.crm.testng.contacttest.CreateContactsTest -->
+      <class name="com.comcast.crm.testng.orgtest.CreateOrganizationTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:09:04 IST" name="configBS" finished-at="2025-09-25T14:09:07 IST" duration-ms="3717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:09:07 IST" name="configBC" finished-at="2025-09-25T14:09:51 IST" duration-ms="43860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:09:51 IST" name="configBM" finished-at="2025-09-25T14:09:59 IST" duration-ms="7385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrganizationTest()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:09:59 IST" name="createOrganizationTest" finished-at="2025-09-25T14:10:09 IST" duration-ms="10724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:10:09 IST" name="configAM" finished-at="2025-09-25T14:10:10 IST" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:10:10 IST" name="configBM" finished-at="2025-09-25T14:10:11 IST" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrganizationWithPhoneNumberTest()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:10:11 IST" name="createOrganizationWithPhoneNumberTest" finished-at="2025-09-25T14:10:16 IST" duration-ms="4622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationWithPhoneNumberTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:10:16 IST" name="configAM" finished-at="2025-09-25T14:10:17 IST" duration-ms="709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:10:17 IST" name="configBM" finished-at="2025-09-25T14:10:18 IST" duration-ms="1246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrganizationWithTypeTest()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:10:18 IST" name="createOrganizationWithTypeTest" finished-at="2025-09-25T14:10:23 IST" duration-ms="5199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationWithTypeTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:10:23 IST" name="configAM" finished-at="2025-09-25T14:10:24 IST" duration-ms="705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:10:24 IST" name="configAC" finished-at="2025-09-25T14:10:36 IST" duration-ms="12361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.testng.orgtest.CreateOrganizationTest@7d20d0b]" started-at="2025-09-25T14:11:12 IST" name="configAS" finished-at="2025-09-25T14:11:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.testng.orgtest.CreateOrganizationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
